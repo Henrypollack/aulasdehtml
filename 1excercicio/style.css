@@ -1,3 +1,6 @@
+body {
+    background-color: darkgray;
+}
 #title {
     color: blue
 } 
@@ -8,4 +11,10 @@ color: blue;
     color: blue;
     font-size: 16px;
     font-style: italic;
+}
+.post {
+    background: whitesmoke;
+    padding: 15px 0px 15px 0px;
+    border: 3px solid black;
+    margin: 10px;
 }
