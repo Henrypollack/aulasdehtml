@@ -53,12 +53,21 @@ Na 1ª linha a borda tem `3px`de largura ela e solida e azul, na 2ª linha temos
 .post {
     border 3px solid #505050;
 }
-              ```
-              **ou**
+```
+**ou essa opção**
+
 ```
 .post{
     border-with: 3px;
     border-color: #505050;
     border-style: solid;
 }
-```              
+```     
+- Ultima propriedade e o `border-radius `.
+```
+border-radius: 10px;
+border-radius: 50%
+border-radius: 10% 20%
+border-radius: 10% 20% 15% 22%
+```       
+- Permite arredondar os cantos de um elemento, colocando apenas um valor alteramos todos os cantos do elemento. Uma *dica* e que se o elemento for quadrado e colocarmos o `border-radius: 50%`ele fica redondo. 
