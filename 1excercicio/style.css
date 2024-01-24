@@ -1,13 +1,20 @@
 body {
     background-color: #f7f7f7;
+    font-family: Verdana;
 }
 .photo {
     border-radius: 50%;
     border-color: #505050;
 }
 #title {
-    color: #505050
+    color: #505050;
+    font-size: 40px;
+    text-transform: uppercase;
 } 
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
 .subtitle {
 color: #505050;
 }
@@ -26,7 +33,15 @@ color: #505050;
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 .post_image {
     margin-bottom: 15px;
+}
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contact_list li a {
+    color: blue;
 }
