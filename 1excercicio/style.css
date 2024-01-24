@@ -1,20 +1,32 @@
 body {
-    background-color: darkgray;
+    background-color: #f7f7f7;
+}
+.photo {
+    border-radius: 50%;
+    border-color: #505050;
 }
 #title {
-    color: blue
+    color: #505050
 } 
 .subtitle {
-color: blue;
+color: #505050;
 }
 .postitle {
-    color: blue;
+    color:#505050;
     font-size: 16px;
     font-style: italic;
 }
 .post {
     background: whitesmoke;
-    padding: 15px 0px 15px 0px;
+    padding: 15px;
     border: 3px solid black;
-    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post_image {
+    margin-bottom: 15px;
 }
