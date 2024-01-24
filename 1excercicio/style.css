@@ -43,5 +43,5 @@ color: #505050;
     padding-left: 15px;
 }
 .contact_list li a {
-    color: blue;
+    text-decoration: none;
 }
